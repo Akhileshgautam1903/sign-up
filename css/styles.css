@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #654062;
+  text-align: center;
+  min-height: 80vh;
+  color: #654062;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+table {
+  position: relative;
+  top: 0px;
+  right: 150px;
+}
+
+p {
+  line-height: 1;
+  text-align: left;
+  position: relative;
+  right: 140px;
+  width: 800px;
+  bottom: 20px;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #ffd66b;
+  text-decoration: none;
+}
+
+.sign-up {
+  background-color: #ffd66b;
+  width: 30%;
+  margin: 50px auto 5px;
+  padding: 100px 250px;
+  border-radius: 10px;
+  line-height: 3rem;
+  position: relative;
+  height: 330px;
+}
+
+h1 {
+  font-family: "Potta One", cursive;
+  right: 230px;
+  bottom: 50px;
+  font-size: 3.5rem;
+  position: relative;
+}
+
+.input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  size: 4rem;
+  height: 50px;
+  width: 600px;
+  font-size: 1.3rem;
+  color: #654062;
+  font-family: "Yusei Magic", sans-serif;
+  transition-duration: 200ms;
+}
+
+.input:focus {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #654062;
+  outline: none;
+}
+
+.btn {
+  background-color: #654062;
+  font-family: "Yusei Magic", sans-serif;
+  position: relative;
+  left: 210px;
+  top: 20px;
+  height: 50px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ffd66b;
+  color: #ffd66b;
+  transition-duration: 400ms;
+}
+
+.btn:hover {
+  background-color: #ffd66b;
+  border-color: #654062;
+  color: #654062;
+  border-bottom-width: 5px;
+}
+
+.copyright {
+  position: relative;
+}
+
+.copyright img {
+  position: relative;
+  height: 40px;
+  width: 36px;
+  left: 90px;
+  bottom: 7px;
+}
+
+.copyright p {
+  position: absolute;
+  color: white;
+  font-size: 1.18rem;
+  right: 0px;
+}
